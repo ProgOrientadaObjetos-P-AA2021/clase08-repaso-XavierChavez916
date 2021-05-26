@@ -15,10 +15,11 @@ public class Calificacion {
     private String nombreMateria;
     private Profesor profesor;
 
-    public Calificacion(String nombre) {
-        
+    public Calificacion(double not, String nombre) {
+
         nombreMateria = nombre;
-        
+        nota = not;
+
     }
 
     public void establecerNota(double n) {
@@ -28,7 +29,7 @@ public class Calificacion {
     public void establecerNombreMateria(String n) {
         nombreMateria = n;
     }
-    
+
     public void establecerProfesor(Profesor n) {
         profesor = n;
     }
@@ -40,7 +41,7 @@ public class Calificacion {
     public String obtenerNombreMateria() {
         return nombreMateria;
     }
-    
+
     public Profesor obtenerProfesor() {
         return profesor;
     }

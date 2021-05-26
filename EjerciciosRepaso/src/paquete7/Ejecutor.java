@@ -29,7 +29,7 @@ public class Ejecutor {
         c2.establecerProfesor(profesor2);
         c3.establecerProfesor(profesor3);
         
-        Acreditacion [] lista = new Acreditacion[3]; 
+        Acreditacion [] lista = {c1,c2,c3}; 
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
                 lista);

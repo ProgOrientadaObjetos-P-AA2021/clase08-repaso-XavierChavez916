@@ -9,13 +9,15 @@ public class Ejecutor {
     public static void main(String[] args) {
          /*
         Tareas
-        1. Ejecuar la clase Ejecutor.java
+        1. Ejecutar la clase Ejecutor.java
         2. Verificar si la salida se corresponde con la información dada
         3. En caso que la salida sea incorrecta o exista error en el código; 
         debe revisar las clases involucradas y resolver la situación.
         4. Explicar lo realizado.
             
         */
+        // Error de que no habia el constructor
+        // Error en operaciones para sacr promedio
         
         Calificacion c1 = new Calificacion(10, "Computación");
         Calificacion c2 = new Calificacion(10, "Lógica");

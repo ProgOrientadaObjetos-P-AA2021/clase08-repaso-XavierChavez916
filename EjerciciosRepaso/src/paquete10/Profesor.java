@@ -13,8 +13,9 @@ public class Profesor {
     private String nombre;
     private String tipo;
     
-    public Profesor(String n){
+    public Profesor(String n, String c){
         nombre = n;
+        tipo = c;
         
     }
     

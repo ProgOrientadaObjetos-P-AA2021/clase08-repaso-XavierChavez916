@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete1;
+package paquete9;
 
 /**
  *
@@ -13,9 +13,9 @@ public class Profesor {
     private String nombre;
     private String tipo;
     
-    public Profesor(String n, String t){
+    public Profesor(String n){
         nombre = n;
-        tipo = t;
+        
     }
     
     public void establecerNombre(String n){

@@ -13,10 +13,10 @@ public class Calificacion {
 
     private double nota;
     private String nombreMateria;
-    private String profesor;
+    private Profesor profesor;
 
     public Calificacion(double n, String nombre) {
-        nota = 0;
+        nota = n;
         nombreMateria = nombre;
         
     }

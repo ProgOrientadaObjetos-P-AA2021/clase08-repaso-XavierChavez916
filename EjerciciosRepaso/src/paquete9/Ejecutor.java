@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete1;
+package paquete9;
 
 public class Ejecutor {
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class Ejecutor {
         c2.establecerProfesor(profesor2);
         c3.establecerProfesor(profesor3);
         
-        Calificacion [] lista = {profesor1, profesor2, profesor3}; 
+        Profesor [] lista = {profesor1, profesor2, profesor3}; 
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
                 lista);

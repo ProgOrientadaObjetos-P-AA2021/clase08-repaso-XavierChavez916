@@ -13,7 +13,7 @@ public class LibretaCalificacion {
     private String estudiante;
     private double promedio;
     private String promedioCualitativo;
-    private double [] calificaciones;
+    private Calificacion [] calificaciones;
     
     public LibretaCalificacion(String n, Calificacion [] c){
         estudiante = n;
@@ -85,7 +85,7 @@ public class LibretaCalificacion {
                 obtenerEstudiante());
         for (int i = 0; i < obtenerCalificaciones().length; i++) {
             cadena = String.format("%s\t\t%s - %s [%.2f]\n", cadena, 
-                    obtenerCalificaciones()[i].obtenerProfesor().obtenerNombre(),
+                    obtenerCalificaciones()[i].obtenerProfesor(),
                     obtenerCalificaciones()[i].obtenerNombreMateria(),
                     obtenerCalificaciones()[i].obtenerNota());
         }
