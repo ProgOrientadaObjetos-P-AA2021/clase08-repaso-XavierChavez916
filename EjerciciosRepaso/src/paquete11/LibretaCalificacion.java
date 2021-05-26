@@ -25,10 +25,10 @@ public class LibretaCalificacion {
     }
     
     public void establecerPromedio(){
-        
+        double suma = 0;
         
         for (int i = 0; i < obtenerCalificaciones().length; i++) {
-            double suma = 0;
+            
             suma = suma + obtenerCalificaciones()[i].obtenerNota();
         }
         

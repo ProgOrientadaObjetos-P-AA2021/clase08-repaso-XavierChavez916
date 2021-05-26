@@ -28,7 +28,7 @@ public class LibretaCalificacion {
         double suma = 0;
         
         for (int i = 0; i < obtenerCalificaciones().length; i++) {
-            suma = obtenerCalificaciones()[i].obtenerNota();
+            suma = suma + obtenerCalificaciones()[i].obtenerNota();
         }
         
         promedio = suma/obtenerCalificaciones().length;

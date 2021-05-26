@@ -31,7 +31,7 @@ public class Ejecutor {
         
         Calificacion [] lista = {c1, c2, c3}; 
         
-        LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers");
+        LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers", lista);
         libreta1.establecerPromedio();
         libreta1.establecerPromedioCualitativo();
         System.out.println(libreta1);
